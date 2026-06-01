@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Brand • Premium T-Shirts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">YOUR BRAND</div>
+            <div class="nav-links">
+                <a href="#shop">Shop</a>
+                <a href="#about">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Premium T-Shirts.<br>Zero Compromise.</h1>
+            <p>Thoughtfully designed. Privately delivered.</p>
+            <a href="#shop" class="btn">Shop Collection</a>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <h2>Collection</h2>
+        <div class="product-grid">
+
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/400x400?text=T-Shirt+1" alt="T-Shirt 1">
+                <h3>Minimal Black</h3>
+                <p class="price">$45</p>
+                <a href="YOUR-NEXAPAY-LINK-HERE" class="buy-btn">Buy Now</a>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="https://via.placeholder.com/400x400?text=T-Shirt+2" alt="T-Shirt 2">
+                <h3>White Rebel</h3>
+                <p class="price">$45</p>
+                <a href="YOUR-NEXAPAY-LINK-HERE" class="buy-btn">Buy Now</a>
+            </div>
+
+            <!-- Add more products by copying the block above -->
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We create premium t-shirts for those who value quality and privacy. No compromises. No noise.</p>
+    </section>
+
+    <footer>
+        <p>© Your Brand. All rights reserved.</p>
+    </footer>
+</body>
+</html>
